@@ -1,0 +1,14 @@
+{
+  "name": "ai-voice-bot",
+  "version": "1.0.0",
+  "main": "ai-assistant.js",
+  "scripts": {
+    "start": "node ai-assistant.js"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^4.4.0",
+    "axios": "^1.3.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
